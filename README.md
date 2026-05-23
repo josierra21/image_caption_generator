@@ -2,6 +2,8 @@
 
 This project trains a CNN + LSTM image caption generator and serves it with Streamlit.
 
+![Image Caption Generator app preview](artifacts/generator_app.png)
+
 ## Project structure
 
 ```text

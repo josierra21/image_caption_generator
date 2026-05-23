@@ -7,3 +7,4 @@ artifacts/*
 !artifacts/caption_model.keras
 !artifacts/caption_tokenizer.pkl
 !artifacts/caption_config.pkl
+!artifacts/generator_app.png
