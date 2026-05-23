@@ -23,6 +23,12 @@ CONFIG_FILE = ARTIFACT_DIR / "caption_config.pkl"
 
 st.set_page_config(page_title="Image Caption Generator", layout="centered")
 st.title("Image Caption Generator")
+st.write(
+    "Upload a photo and the app will try to describe what it sees. "
+    "This is a simple CNN + LSTM model tested with the Flickr image caption dataset, "
+    "so it works best with common everyday images and may describe unusual objects or animals "
+    "in a more general way."
+)
 
 
 def artifact_exists() -> bool:
