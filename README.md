@@ -39,9 +39,13 @@ caption_config.pkl
 mobilenetv2_features.pkl
 ```
 
-## Streamlit app
+## Running the project
 
-After training, run:
+You can use the deployed app here:
+
+https://joannas-imagecaptiongenerator.streamlit.app/#image-caption-generator
+
+To run the app locally after training, use:
 
 ```bash
 streamlit run app.py
