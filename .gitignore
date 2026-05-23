@@ -3,6 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .DS_Store
-artifacts/*.pkl
-artifacts/*.keras
-artifacts/*.h5
+artifacts/*
+!artifacts/caption_model.keras
+!artifacts/caption_tokenizer.pkl
+!artifacts/caption_config.pkl
